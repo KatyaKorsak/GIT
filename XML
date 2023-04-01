@@ -1,0 +1,26 @@
+<req>
+   	<name>Katya</name>
+   	<surname>Korsak</surname>
+   	<age>27</age>
+   	<pets>3</pets>
+   	<salary>500</salary>
+</req>
+
+
+<req>
+  <fav_movie>Forrest Gump</fav_movie>
+  <fav_TV_series>How I Met Your Mother</fav_TV_series>
+  <fav_food>rolls</fav_food>
+  <fav_season>summer</fav_season>
+  <country>Spain</country>
+</req>
+
+
+<req>
+  <skill_1>Postman</skill_1>
+  <skill_2>API</skill_2>
+  <skill_3>Test case</skill_3>
+  <skill_4>Charles</skill_4>
+  <skill_5>DevTools</skill_5>
+  <skill_6>SQL</skill_6>
+</req>
