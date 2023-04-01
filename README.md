@@ -1,4 +1,4 @@
-# GIT (Homework 1)
+# GitHub. HW_1
 Для выполнения задания у вас должен быть установлен для Windows - GitBash.
 Создан аккаунт в GitHub
 Все шаги сценария выполняйте в терминале GitBush, Terminal, в папке под гитом.
@@ -75,3 +75,38 @@ git push**
  16. На веб интерфейсе модифицировать файл bug_report.txt, добавить баг репорт в формате TXT.
  17. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
  18. Синхронизировать внешний и локальный репозиторий TXT **git pull**
+ 
+ # GitHub. HW_2
+ 1. На локальном репозитории сделать ветки для:
+- Postman **git branch Postman**
+- Jmeter **git branch Jmeter**
+- CheckLists **git branch CheckLists**
+- Bug Reports **git branch Bug_Reports**
+- SQL **git branch SQL**
+- Charles **git branch Charles**
+- Mobile testing **git branch Mobile_Testing**
+
+2. Запушить все ветки на внешний репозиторий
+git add .
+git commit -m "add new repositories"
+git push
+3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
+**git checkout Bug_Reports
+cat >> bug_report.txt**
+4. Запушить структуру багрепорта на внешний репозиторий
+**git add .
+git commit -m "added new branch and new file"
+git push origin Bug_Reports**
+5. Вмержить ветку Bag Reports в Main
+**git checkout master
+git merge Bug_Reports**
+6. Запушить main на внешний репозиторий. **git push**
+7. В ветке CheckLists набросать структуру чек листа.
+**git checkout CheckLists
+cat >> checklists.txt**
+8. Запушить структуру на внешний репозиторий
+**git add .
+git commit -m "added new string"
+git push origin CheckLists**
+9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
+10. Синхронизировать Внешнюю и Локальную ветки Main **git pull**
