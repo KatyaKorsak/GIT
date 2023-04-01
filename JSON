@@ -1,0 +1,26 @@
+{
+	"first_name": "Katya",
+	"last_name" : "Korsak",
+	"age": 27,
+	"num_animals": 3,
+	"salary":10
+}
+
+
+{
+   "favorite movie":"Forrest Gump",
+   "favorite TV show":"How I Met Your Mother",
+   "favorite food":"rolls",
+   "favorite season":"summer"
+}
+
+
+{
+   "skills":"Postman",
+   "Jmeter",
+   "CheckLists",
+   "Bag Reports",
+   "SQL",
+   "Charles",
+   "Mobile testing"
+}
