@@ -93,6 +93,7 @@ git push**
 **git commit -m "add new repositories"**
 
 **git push**
+
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
 
 **git checkout Bug_Reports**
@@ -134,4 +135,6 @@ git push**
 
 9. На внешнем репозитории сделать Pull Request ветки CheckLists в main
 
-10. Синхронизировать Внешнюю и Локальную ветки Main **git pull**
+10. Синхронизировать Внешнюю и Локальную ветки Main 
+ 
+**git pull**
