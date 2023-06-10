@@ -87,9 +87,9 @@ git push**
 - Mobile testing **git branch Mobile_Testing**
 
 2. Запушить все ветки на внешний репозиторий
-git add .
+**git add .
 git commit -m "add new repositories"
-git push
+git push**
 3. В ветке Bug Reports сделать текстовый документ со структурой баг репорта
 **git checkout Bug_Reports
 cat >> bug_report.txt**
