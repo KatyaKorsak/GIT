@@ -67,8 +67,8 @@ git commit -m "update new.txt"
 git push**
  9. Создать файл preferences.txt **touch preferences.txt**
  10. В файл preferences.txt” добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате TXT. **vim preferences.txt**
-11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT **cat  >> preferences.txt**
- 12. Сделать коммит в одну строку.  git add skills.txt preferences.txt && git commit -m "comment"
+ 11. Создать файл skills.txt добавить информацию о скиллах которые будут изучены на курсе в формате TXT **cat  >> preferences.txt**
+ 12. Сделать коммит в одну строку.  **git add skills.txt preferences.txt && git commit -m "comment"**
  13. Отправить сразу 2 файла на внешний репозиторий **git push**
  14. На веб интерфейсе создать файл bug_report.txt.
  15. Сделать Commit changes (сохранить) изменения на веб интерфейсе.
